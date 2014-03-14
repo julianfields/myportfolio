@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import "normalize";
+@import "skeleton";
+
+.header {
+  background-color: #1061A3;
+  padding: 2px 0;
+  h2 {
+    display: inline-block;
+  }
+}
+
+.hero {
+  text-align: center;
+  background: image_url("Portland.jpg") center center no-repeat;
+  background-size: cover;
+  height: 570px;
+  background-repeat: no-repeat;
+}
+
+.about {
+  background-color: #BDC4C7;
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: #7AFF26;
+  padding: 20px 0;
+  padding-bottom: 5px;
+}
+
