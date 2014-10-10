@@ -1,33 +1,57 @@
 ---
+
 title: Julian Fields Design
 
 ---
-.header
-  .container
-    .twelve.columns
-      %h2 Julian Fields Design
-      = link_to " home"
-      = link_to "about"
-      = link_to "work"
-      = link_to "contact"
-        
 .hero
-
+  .logo
+    %h1
+      Julian Fields
+      %span Designer • Engineer • Surfer
 .about
   .container
     .row
-      .twelve.columns
+      .sixteen.columns
         :markdown
-          Julian Fields is a dedicated husband, son, and, brother who has a love for design and style.  Whether it's in cultivating new avenues 
+          Julian Fields is a dedicated husband, son, and brother.  He grew up in Oregon, with mountains to the east and ocean to the west. Whether it's surfing, skiing or design, Julian admires
+          clean lines and style.  His prior experience in film and running his family's chai businesss have created a unique understanding of how to solve real
+          world problems.  An emphaasis in working efficiently and effectively while keeping vision on the overall goal is something Julian excels at.  Julian understands
+          that there will be breakdown anytime you are on the edge, but on the edge is where the magic happens, and where he chooses to be!
 
-          for his chai business, riding waves around the globe or developing websites, Julian loves aesthetically pleasing things.  
-          `Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim :w
+          He believes that compassion and empathy are two key ingredients when working with individuals and groups.  Everyone has a story, history and past experiences.
+          As long as you are open to the possiblilites than anything is possible.  Julian embodies this belief and lives by it.  Web development and design has opened up
+          Julian to his artistic side and in doing so has allowed for him to find a skill that makes him excited to work everyday.
 
-          :ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+          It's not how you perform when things are going well, but when the pressure is on.  Showing up is more than arriving on time, it's putting yourself on the hook 
+          for something, following through on your word and what you are committed to.  If you are fully committed, you will achieve your goals and likely exceed them.  It is this
+          philosopy that Julian uses to stay relaxed in a fast paced uncertain world.
+
 
 .work
-  
+  .container
+    .row
+      .sixteen.columns
+        %h2 This Is My Work
+    .row
+      .eight.columns.sattwa
+        = link_to "http://sattwachai.com" do
+          %img(src="/images/sattwa-screenshot.png")
+          .info
+            :markdown
+              ### sattwa.com
 
-.footer
-  %h2 This is some badazz stuff right here  
+              some paragraph of text here...
 
+              * Design
+              * Development (Ruby, Haml, Sass)
+              * AWS S3 Hosting
+      .eight.columns.eastwind
+        = link_to "http://eastwind-search.herokuapp.com" do
+          %img(src="/images/eastwind-screenshot.png")
+          .info
+            :markdown
+              ### eastwind-search.herokuapp.com
+
+              * Design
+              * Devlopement (Ruby, Haml, Sass)
+              * Heroku for hosting
