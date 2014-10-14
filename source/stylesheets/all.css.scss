@@ -2,9 +2,13 @@
 @import "normalize";
 @import "compass";
 @import "compass/css3";
+@import "breakpoint";
 @import "skeleton";
 @import "icon-fonts";
 @import "general_foundicon";
+
+
+
 
 img {
   max-width: 100%;
@@ -50,7 +54,7 @@ img {
 
 
 .about {
-  font-family: adelle;
+  font-family: "adelle";
   text-align: left;
   font-size: 22px;
   line-height: 1.6;
@@ -64,10 +68,11 @@ img {
    display: inline;
  }
  h2 {
-  font-family: "ltc-bodoni-175";
+  font-family: "adelle";
   font-size: 48px;
   text-align: center;
  }
+}
  a {
    position: relative;
    display: block;
@@ -89,7 +94,6 @@ img {
      }
    }
  }
-}
 
 
 .container {
@@ -116,6 +120,14 @@ img {
   }
 }
 
-
-
-
+.treehouse {
+  .container {
+   font-family: "adelle";
+   font-size: 24px;
+   text-align: center;
+   padding-top: 10px;
+  }
+  a {
+    display: block;
+  }
+}
