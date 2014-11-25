@@ -2,7 +2,7 @@
 @import "normalize";
 @import "compass";
 @import "compass/css3";
-@import "breakpoint";
+/*@import "breakpoint";*/
 @import "skeleton";
 @import "icon-fonts";
 @import "general_foundicon";
@@ -80,7 +80,7 @@ img {
      position: absolute;
      width: 100%;
      height: 100%;
-     background: rgba(98,99,102,0.9);
+     background: rgba(100,149,150, 0.9);
      color: #fff;
      padding: 10px;
      top: 0;
@@ -129,5 +129,47 @@ img {
   }
   a {
     display: block;
+  }
+}
+
+@media screen and (max-width: 1160px){
+  .hero {
+    background: image_url("Portland.jpg") right top;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 930px){
+  .hero {
+    background: image_url("Portland.jpg") right center;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .hero {
+    background: image_url("Portland.jpg") center no-repeat;
+  }
+  .logo {
+    h1 {
+     font-size: 40px;
+     text-align: center;
+    }
+    span {
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 497px) {
+  .hero {
+    background: image_url("Portland.jpg") center center no-repeat;
+    background-size: cover;
+    height: 400px;
+    i {
+      display: none;
+    }   
   }
 }

@@ -3,10 +3,10 @@
 ###
 
 # Change Compass configuration
-compass_config do |config|
-  require 'breakpoint'
-  config.output_style = :compact
-end
+#compass_config do |config|
+  #require 'breakpoint'
+  #config.output_style = :compact
+#end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -51,6 +51,8 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :build_dir, "tmp"
 
 # Build-specific configuration
 configure :build do
