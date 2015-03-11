@@ -1014,3 +1014,40 @@ a {
 /* line 130, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
 .treehouse a {
   display: block; }
+
+@media screen and (max-width: 1160px) {
+  /* line 136, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  .hero {
+    background: url("/images/Portland.jpg") right top;
+    height: 400px; } }
+@media screen and (max-width: 930px) {
+  /* line 143, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  .hero {
+    background: url("/images/Portland.jpg") right center; } }
+@media screen and (max-width: 630px) {
+  /* line 150, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  .hero {
+    background: url("/images/Portland.jpg") center no-repeat; }
+
+  /* line 154, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  .logo h1 {
+    font-size: 40px;
+    text-align: center; }
+  /* line 158, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  .logo span {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none; } }
+@media screen and (max-width: 400px) {
+  /* line 167, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  .hero {
+    background: url("/images/Portland.jpg") center center no-repeat;
+    background-size: cover;
+    height: 400px; }
+    /* line 171, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+    .hero i {
+      display: none; }
+
+  /* line 176, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  .logo span {
+    font-size: 14px; } }

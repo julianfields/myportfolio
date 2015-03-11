@@ -163,7 +163,7 @@ img {
   }
 }
 
-@media screen and (max-width: 497px) {
+@media screen and (max-width: 400px) {
   .hero {
     background: image_url("Portland.jpg") center center no-repeat;
     background-size: cover;
@@ -171,5 +171,10 @@ img {
     i {
       display: none;
     }   
+  }
+  .logo {
+    span {
+      font-size: 14px;
+    }
   }
 }
