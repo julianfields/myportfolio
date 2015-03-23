@@ -963,6 +963,7 @@ a {
   /* line 79, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   a .info {
     position: absolute;
+    font-size: 13px;
     width: 100%;
     height: 100%;
     background: rgba(100, 149, 150, 0.9);
@@ -977,11 +978,11 @@ a {
     -o-transition: opacity 0.3s ease-in-out;
     -webkit-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out; }
-  /* line 92, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  /* line 93, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   a:hover .info {
     opacity: 1; }
 
-/* line 99, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+/* line 100, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
 .container {
   background: no-repeat;
   display: block;
@@ -990,64 +991,67 @@ a {
   position: center;
   padding-top: 10px;
   padding-bottom: 10px; }
+  /* line 108, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  .container .eight.columns {
+    width: 300px; }
 
-/* line 109, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+/* line 113, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
 .footer {
   display: block;
   background-color: #626366;
   text-align: center;
   padding: 20px 0; }
-  /* line 110, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  /* line 114, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   .footer .row {
     margin: 0; }
-  /* line 117, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  /* line 121, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   .footer a {
     text-decoration: none;
     margin: 0, 5px; }
 
-/* line 124, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+/* line 128, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
 .treehouse .container {
   font-family: "adelle";
   font-size: 24px;
   text-align: center;
   padding-top: 10px; }
-/* line 130, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+/* line 134, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
 .treehouse a {
   display: block; }
 
 @media screen and (max-width: 1160px) {
-  /* line 136, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  /* line 140, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   .hero {
     background: url("/images/Portland.jpg") right top;
     height: 400px; } }
 @media screen and (max-width: 930px) {
-  /* line 143, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  /* line 147, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   .hero {
     background: url("/images/Portland.jpg") right center; } }
 @media screen and (max-width: 630px) {
-  /* line 150, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  /* line 154, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   .hero {
     background: url("/images/Portland.jpg") center no-repeat; }
 
-  /* line 154, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  /* line 158, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   .logo h1 {
     font-size: 40px;
     text-align: center; }
-  /* line 158, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  /* line 162, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   .logo span {
     font-size: 20px;
     text-align: center;
     text-decoration: none; } }
 @media screen and (max-width: 400px) {
-  /* line 167, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  /* line 171, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   .hero {
     background: url("/images/Portland.jpg") center center no-repeat;
     background-size: cover;
     height: 400px; }
-    /* line 171, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+    /* line 175, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
     .hero i {
       display: none; }
 
-  /* line 176, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
+  /* line 180, /Users/julianfields/work/myportfolio/source/stylesheets/all.css.scss */
   .logo span {
     font-size: 14px; } }
